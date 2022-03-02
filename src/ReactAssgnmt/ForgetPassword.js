@@ -1,3 +1,4 @@
+import Button from "./Button"
 
 const ForgetPassword = () => {
 
@@ -15,17 +16,16 @@ const ForgetPassword = () => {
         </form>
       </div>
     </nav>
-            <div class="bg-light w-5">
+            <div class="container-fluid bg-light w-5">
                     <div class="row">
                         <div class="col"></div>
                         <div class="col">
                             <div className="p-3 bg-white my-5 rounded-3" style={{width:"500px", height:"300px"}} >
-                                <h4 style={{fontfamily:"SFProDisplay-Bold, Helvetica, Arial, sans-serif"}}>Find Your Account</h4><hr/>
+                                <h4 >Find Your Account</h4><hr/>
                                 <h6>Please enter your email address or mobile number to search for your account.</h6><br/>
                                 <input className="form-control mb-4 fs-5 form-control-lg" type="text" id="Email" placeholder="Email address or mobile number"/><hr/>
-                                <div className="d-flex "> 
-                                    <button type="button" class="btn btn-secondary me-2 mx-auto">cancel</button>
-                                    <button type="button" class="btn btn-primary">Search</button>
+                                <div className="d-flex justify-content-end"> 
+                                    <Button/>
                                 </div>
                             </div>
                         </div>
