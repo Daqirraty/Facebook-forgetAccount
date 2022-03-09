@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+// import App from '../src/App';
+import FormExample from './ForForms/FormExample';
 import reportWebVitals from './reportWebVitals';
-// import FirstComponent from './Components/FirstComponent';
-// import Register from './Components/Register';
-import ForgetPassword from './ReactAssgnmt/ForgetPassword';
-// import Login from './Components/Login';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <ForgetPassword/>
+    <FormExample/>
   </React.StrictMode>,
   document.getElementById('root')
 );

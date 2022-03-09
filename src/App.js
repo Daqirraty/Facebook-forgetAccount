@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react';
+import StudentCards from './StudentCardLayout/StudentCards';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Fragment>
+      <div className="d-flex row mb-5 mx-0 ">
+        <div className='col border border-danger justify-content-end bg-primary fs-1 '>ZULFAH</div>
+        <div className='col border border-primary bg-warning fs-1'>TRAINING</div>
+      </div>
+          <StudentCards/>
+ 
+  </Fragment>
+    
   );
 }
 
